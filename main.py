@@ -13,7 +13,8 @@ def main():
     print(f'Rows before transforming: {len(raw_data)}')
     print(f'Rows after transforming: {len(transformed)}')
 
-
+    transformed.to_csv('data/target_system.csv' ,index=False)
+    print("clean data exported")
 
 if __name__ == "__main__" :
     cleaned_df = main()
