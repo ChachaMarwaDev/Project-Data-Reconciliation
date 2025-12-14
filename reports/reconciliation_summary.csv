@@ -1,0 +1,2 @@
+total_source_records,total_target_records,missing_in_target,extra_in_target,matched_records,mismatched_values,reconciliation_rate
+9800,9789,11,0,9781,9775,99.81%
